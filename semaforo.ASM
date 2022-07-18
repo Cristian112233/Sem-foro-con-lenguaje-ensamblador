@@ -48,6 +48,17 @@ begin     PROC     FAR;    inicio de procedimiento begin
            MOV     DH,4               ;RENGLON
            MOV     DL,00              ;COLUMNA
            INT     10H
+;.............................................................
+ 
+mov ax, 5000 ;AX = tiempo en milliseconds (5 segundos)
+mov dx, 1000 ;Multiplicar por 1000
+mul dx ;DX:AX = Tiempo en microseconds
+
+xchg ax,dx ;CX:DX = Tiempo
+xchg ax,cx
+mov ah,86h
+int 15h
+
 ;-------------------------LINEA DERECHA |  
 
              MOV CX,207  ;CX = CORDENADA X
@@ -59,12 +70,12 @@ REG537:
               INT 10H
 
               INC DX
-              CMP DX,190             ;baja y hasta 
+              CMP DX,190        ;baja y hasta Para cordenada Y
               JNE REG537
 
               
               MOV DX,10 
-              INC CX               ;incrementa posicion en x
+              INC CX              ;incrementa Para cordenada x
               CMP CX,210           ;hasta la posicion 154
               JNE REG537
 
