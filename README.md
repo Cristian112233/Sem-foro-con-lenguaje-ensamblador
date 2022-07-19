@@ -1,6 +1,6 @@
 # Semaforo-con-lenguaje-ensamblador
 Semáforo con lenguaje ensamblador 
-Cuenta del 24 al 0 Esta echo por pixeles dados por cordenadas
+Cuenta del 25 al 0 Esta echo por pixeles dados por cordenadas
 
 Primero creamos una grilla de 320 X 200 
 ![image](https://user-images.githubusercontent.com/66086428/179620254-8dc69442-4f15-4afb-9081-c8bca9a49d37.png)
