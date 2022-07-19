@@ -48,6 +48,10 @@ Este sirve para crear las líneas en las que se pintan los pixeles
 
 ![image](https://user-images.githubusercontent.com/66086428/179620103-5de9b03e-6d3a-462f-9031-906aee738da3.png)
 
+Por ultimo le ponemos esta pausa que al dar Enter para salir del programa 
+
+![image](https://user-images.githubusercontent.com/66086428/179662626-97c5f4a1-729c-4bd7-b18f-da92a5b60831.png)
+
 
 
 
